@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: #F8F8F8; */
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+} 
+
+
+section.chat_section {
+    width: 800px;
+    max-width: 90%;
+    background: rgba(2, 91, 121, 0.618);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0.0.0.0.05);
+    border: 5px solid #f5fafc;
+    
+}
+
+.brand {
+    padding: 25px;
+    background: #04d7f3;
+    /* background: rgb(133, 245, 133); */
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.message_area {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    
+}
+
+/* .footer form {
+    display: flex;
+}
+
+form input {
+    flex: 1;
+    height: 40;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+    background-color: lightgrey;
+    color: black;
+}
+
+form button {
+    width: 100;
+    font-size: 18px;
+    border: none;
+    background-color:  rgb(32, 201, 32);
+    color: black;
+} */
+
+.textarea {
+    
+    width: 800px;
+    border: none;
+    padding: 20px;
+    font-size: 100px;
+    outline: none;
+    background: #FBFBFB;
+    
+
+
+}
+
+.message {
+    padding: 20px;
+    border-radius: 1rem;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+    
+
+
+}
+
+.incoming {
+    background: whitesmoke;
+    color: black;
+
+}
+
+.outgoing {
+    background: rgb(206, 202, 202);
+    color: black;
+    margin-left: auto;
+
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    
+}
+
